@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+html,body {
+    min-height: 100vh;
+}
+.home-wrapper {
+    height: 93vh;
+    background-image: url(../images/Suo_02.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.home-wrapper > h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700
+}
+.home-wrapper > h4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+}
+.about-wrapper {
+    min-height: 95vh;
+    margin-top: 5%;
+}
+.p-text {
+    font-size:20px;
+}
+.about-content {
+    /* border: 2px rgb(19, 19, 170) solid;
+    border-radius: 10px; */
+}
+.my-heading {
+    font-size:56px;
+    font-family: 'Merriweather', serif;
+}
+.myContainer {
+    margin-left:5%;
+    margin-right:5%;
+}
+.projects-wrapper {
+    margin-top:5%;
+    min-height: 95vh;
+}
+.projects {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+}
+.project {
+    border: 1px solid rgb(194, 15, 15);
+    padding:20px;
+    border-radius: 10px;
+}
